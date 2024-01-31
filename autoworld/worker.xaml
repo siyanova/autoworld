@@ -1,0 +1,24 @@
+﻿<Window x:Class="autoworld.worker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:autoworld"
+        mc:Ignorable="d"
+        Title="worker" Height="450" Width="800">
+    <Grid>
+        <Label Content="введите бокс" FontSize="20" HorizontalAlignment="Left" Margin="52,30,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Width="150" Height="30" Margin="208,34,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" />
+        <Label Content="1 заказ" HorizontalAlignment="Left" FontSize="20" Margin="65,133,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Width="150" Height="30" Margin="250,137,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"  />
+        <Label Content="2 заказ" HorizontalAlignment="Left" FontSize="20" Margin="65,179,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Width="150" Height="30" Margin="250,187,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+        <Button Content="завершить смену" Width="150" Height="37" HorizontalAlignment="Left" Margin="612,27,0,0" VerticalAlignment="Top"/>
+        <Button Content="ввод" Width="150" Height="37" HorizontalAlignment="Left" Margin="400,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="3 заказ" HorizontalAlignment="Left" FontSize="20" Margin="65,223,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Width="150" Height="30" Margin="250,231,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+        <Label Content="4 заказ" HorizontalAlignment="Left" FontSize="20" Margin="65,269,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Width="150" Height="30" Margin="250,277,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

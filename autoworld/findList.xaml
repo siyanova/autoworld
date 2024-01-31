@@ -1,0 +1,45 @@
+﻿<Window x:Class="autoworld.findList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:autoworld"
+        mc:Ignorable="d"
+        Title="findList" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Label Content="Current order" Margin="10" FontSize="15"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Button Content="Enter" Margin="10" HorizontalAlignment="Right" Width="150" Height="30"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <ScrollViewer>
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" Height="auto">
+                        <Label Content="NumberOrder" Margin="10"/>
+                        <Label Content="DataCreation" Margin="10"/>
+                        <Label Content="NumberBox" Margin="10"/>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <StackPanel Orientation="Horizontal"  Grid.Row="2">
+            <Button Content="Find an order"  Margin="10" FontSize="15"/>
+            <Button Content="Creat an order"  Margin="10" FontSize="15"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
